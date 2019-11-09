@@ -40,7 +40,7 @@ Turn in a write up in Canvas with the following.
 -   Work out how long you could use Athena before it makes sense to
     shift to Redshift.
 -   Assume you need to query the database every hour and repeat the
-    computation above.
+    question above.
 
 You can turn the assignment in any format you desire. This assignment
 will be setup in R Studio Cloud if you want to use R Markdown. (Note
