@@ -11,8 +11,8 @@ Let’s assume for a minute that you have been put in charge of migrating
 your existing data warehouse to the cloud. You have narrowed down the
 possibilities to two AWS technologies: Amazon Athena or Redshift on RDS
 in either case, you will also need to backup the raw data on Amazon S3.
-(Note that you have, in theory, eliminated the possibility of using
-Redshift Spectrum.)
+(For this exercise, you have eliminated the need for Redshift Spectrum
+and have decided to use Amazon’s On-demand Pricing.)
 
 For this exercise, we’ll make the following assumptions.
 
