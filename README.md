@@ -20,7 +20,7 @@ For this exercise, we’ll make the following assumptions.
     crazy like that. Just assume you’ll need to use these technologies
     together.
 -   Your current data warehouse contains 1 TB of data.
--   Your data warehouse grows by 1 Gb a day.
+-   Your data warehouse grows by 1 GB a day.
 -   You need to query the equivalent of the entire system once a day.
 -   Since you only need to query the database once a day and loading the
     data into the database is assumed to require negligible compute
