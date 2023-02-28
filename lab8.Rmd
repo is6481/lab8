@@ -20,11 +20,11 @@ library(rpart)
 To investigate cloud technologies and determine which is appropriate for your scenario.
 
 # Background
-Let's assume for a minute that you have been put in charge of migrating your existing data warehouse to the cloud. You have narrowed down the possibilities to two AWS technologies: Amazon Athena or Redshift on RDS in either case, you will also need to backup the raw data on Amazon S3. (For this exercise, you have eliminated the need for Redshift Spectrum and have decided to use Amazon's On-demand Pricing.)
+Let's assume for a minute that you have been put in charge of migrating your existing data warehouse to the cloud. You have narrowed down the possibilities to two AWS technologies: Amazon Athena or Amazon Redshift in either case, you will also need to backup the raw data on Amazon S3. (You have eliminated the need for Redshift Spectrum and have decided to use Amazon's On-demand Pricing.)
 
 For this exercise, we'll make the following assumptions.
 
-* First, don't worry about how to structure the data in S3 or anything crazy like that. Just assume you'll need to use these technologies together.
+* First, don't worry about how to structure the data in S3. Just assume you'll need to use these technologies together.
 * Your current data warehouse contains 1 TB of data.
 * Your data warehouse grows by 1 GB a day.
 * You need to query the equivalent of the entire system once a day.
